@@ -17,6 +17,10 @@ val scalacheck = "org.scalacheck" %% "scalacheck" % "1.12.4"
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.0" cross CrossVersion.full)
+
+libraryDependencies += "com.github.mpilquist" %% "simulacrum" % "0.8.0"
+
 
 lazy val root = (project in file(".")).
   settings(

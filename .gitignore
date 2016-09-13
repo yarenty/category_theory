@@ -20,3 +20,6 @@ project/plugins/project/
 out/
 project/project/
 project/target/
+macros/target/
+core/target/
+
